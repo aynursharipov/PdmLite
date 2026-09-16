@@ -1,0 +1,6 @@
+@PdmLite_HostAddress = http://localhost:5279
+
+GET {{PdmLite_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

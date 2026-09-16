@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "2DMyN50EMlGpsF810aJlydfJoUwRCbXVsg/MMqVBpHw=",
+  "Source": "PdmLite.Api",
+  "BasePath": "_content/PdmLite.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

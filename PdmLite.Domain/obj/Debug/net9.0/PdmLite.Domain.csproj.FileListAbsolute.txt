@@ -1,0 +1,11 @@
+C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Domain\bin\Debug\net9.0\PdmLite.Domain.deps.json
+C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Domain\bin\Debug\net9.0\PdmLite.Domain.dll
+C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Domain\bin\Debug\net9.0\PdmLite.Domain.pdb
+C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Domain\obj\Debug\net9.0\PdmLite.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Domain\obj\Debug\net9.0\PdmLite.Domain.AssemblyInfoInputs.cache
+C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Domain\obj\Debug\net9.0\PdmLite.Domain.AssemblyInfo.cs
+C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Domain\obj\Debug\net9.0\PdmLite.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Domain\obj\Debug\net9.0\PdmLite.Domain.dll
+C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Domain\obj\Debug\net9.0\refint\PdmLite.Domain.dll
+C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Domain\obj\Debug\net9.0\PdmLite.Domain.pdb
+C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Domain\obj\Debug\net9.0\ref\PdmLite.Domain.dll

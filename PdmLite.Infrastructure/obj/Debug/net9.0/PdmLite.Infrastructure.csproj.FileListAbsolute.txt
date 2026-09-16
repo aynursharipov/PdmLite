@@ -1,0 +1,17 @@
+C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Infrastructure\bin\Debug\net9.0\PdmLite.Infrastructure.deps.json
+C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Infrastructure\bin\Debug\net9.0\PdmLite.Infrastructure.runtimeconfig.json
+C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Infrastructure\bin\Debug\net9.0\PdmLite.Infrastructure.dll
+C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Infrastructure\bin\Debug\net9.0\PdmLite.Infrastructure.pdb
+C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Infrastructure\bin\Debug\net9.0\PdmLite.Domain.dll
+C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Infrastructure\bin\Debug\net9.0\PdmLite.Domain.pdb
+C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Infrastructure\obj\Debug\net9.0\PdmLite.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Infrastructure\obj\Debug\net9.0\PdmLite.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Infrastructure\obj\Debug\net9.0\PdmLite.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Infrastructure\obj\Debug\net9.0\PdmLite.Infrastructure.AssemblyInfo.cs
+C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Infrastructure\obj\Debug\net9.0\PdmLite.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Infrastructure\obj\Debug\net9.0\PdmLite..43F7E21F.Up2Date
+C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Infrastructure\obj\Debug\net9.0\PdmLite.Infrastructure.dll
+C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Infrastructure\obj\Debug\net9.0\refint\PdmLite.Infrastructure.dll
+C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Infrastructure\obj\Debug\net9.0\PdmLite.Infrastructure.pdb
+C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Infrastructure\obj\Debug\net9.0\PdmLite.Infrastructure.genruntimeconfig.cache
+C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Infrastructure\obj\Debug\net9.0\ref\PdmLite.Infrastructure.dll
