@@ -5,7 +5,7 @@ namespace PdmLite.Exceptions;
 
 public class DocumentNotFoundExceptionHandler(ILogger<DocumentNotFoundExceptionHandler> logger) : IExceptionHandler
 {
-    public async ValueTask<bool> TryHandleAsync(HttpContext httpContext, Exception exception, CancellationToken cancellationToken)
+    public async ValueTask<bool> TryHandleAsync(HttpContext httpContext, Exception exception, CancellationToken ct)
     {
         if (exception is not DocumentNotFoundException notFoundEx)
             return false;
@@ -20,7 +20,7 @@ public class DocumentNotFoundExceptionHandler(ILogger<DocumentNotFoundExceptionH
         };
             
         httpContext.Response.StatusCode = StatusCodes.Status404NotFound;
-        await httpContext.Response.WriteAsJsonAsync(problemDeatils, cancellationToken);
+        await httpContext.Response.WriteAsJsonAsync(problemDeatils, ct);
             
         return true;
     }
