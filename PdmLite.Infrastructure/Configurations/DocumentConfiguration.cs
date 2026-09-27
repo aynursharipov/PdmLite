@@ -16,5 +16,13 @@ public class DocumentConfiguration: IEntityTypeConfiguration<Document>
         builder.Property(x => x.Title)
             .HasMaxLength(200).IsRequired();
         builder.Property(x => x.CreatedAt).IsRequired();
+        
+        builder.HasMany(x => x.Revisions)
+            .WithOne(x => x.Document)
+            .HasForeignKey(x => x.DocumentId)
+            .OnDelete(DeleteBehavior.Cascade);
+        
+        builder.Navigation(x => x.Revisions)
+            .UsePropertyAccessMode(PropertyAccessMode.Field);
     }
 }

@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
-using PdmLite.Models;
+using PdmLite.Api.Models;
 
-namespace PdmLite.Validators;
+namespace PdmLite.Api.Validators;
 
 public class CreateDocumentRequestValidator: AbstractValidator<CreateDocumentRequest>
 {

@@ -9,3 +9,4 @@ C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Domain\obj\Debug\net9.0\PdmLit
 C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Domain\obj\Debug\net9.0\refint\PdmLite.Domain.dll
 C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Domain\obj\Debug\net9.0\PdmLite.Domain.pdb
 C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Domain\obj\Debug\net9.0\ref\PdmLite.Domain.dll
+C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Domain\obj\Debug\net9.0\PdmLite.Domain.sourcelink.json

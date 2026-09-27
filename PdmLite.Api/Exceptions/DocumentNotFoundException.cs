@@ -1,3 +1,3 @@
-﻿namespace PdmLite.Exceptions;
+﻿namespace PdmLite.Api.Exceptions;
 
 public class DocumentNotFoundException(Guid guid) : Exception($"Document [{guid}] not found ");

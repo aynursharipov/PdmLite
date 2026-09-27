@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 
-namespace PdmLite.Exceptions;
+namespace PdmLite.Api.Exceptions;
 
 public class DocumentAlreadyExistsExceptionHandler(ILogger<DocumentAlreadyExistsExceptionHandler> logger) : IExceptionHandler
 {

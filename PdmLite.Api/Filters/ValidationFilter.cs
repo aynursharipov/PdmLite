@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace PdmLite.Filters;
+namespace PdmLite.Api.Filters;
 
 public class ValidationFilter<T>: IEndpointFilter where T : class 
 {

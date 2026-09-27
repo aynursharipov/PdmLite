@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
-using PdmLite.Exceptions;
+using PdmLite.Api.Exceptions;
 
-namespace PdmLite.Filters;
+namespace PdmLite.Api.Filters;
 
 public class ApiExceptionFilter: IExceptionFilter
 {

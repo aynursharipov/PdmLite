@@ -51,6 +51,50 @@ namespace PdmLite.Infrastructure.Migrations
 
                     b.ToTable("documents", (string)null);
                 });
+
+            modelBuilder.Entity("PdmLite.Domain.Models.DocumentRevision", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Comment")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("character varying(500)");
+
+                    b.Property<DateTimeOffset>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<Guid>("DocumentId")
+                        .HasColumnType("uuid");
+
+                    b.Property<int>("RevisionNumber")
+                        .HasColumnType("integer");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DocumentId", "RevisionNumber")
+                        .IsUnique();
+
+                    b.ToTable("document_revisions", (string)null);
+                });
+
+            modelBuilder.Entity("PdmLite.Domain.Models.DocumentRevision", b =>
+                {
+                    b.HasOne("PdmLite.Domain.Models.Document", "Document")
+                        .WithMany("Revisions")
+                        .HasForeignKey("DocumentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Document");
+                });
+
+            modelBuilder.Entity("PdmLite.Domain.Models.Document", b =>
+                {
+                    b.Navigation("Revisions");
+                });
 #pragma warning restore 612, 618
         }
     }

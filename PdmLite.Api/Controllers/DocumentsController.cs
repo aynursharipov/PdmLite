@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using PdmLite.Exceptions;
-using PdmLite.Models;
-using PdmLite.Services;
+using PdmLite.Api.Exceptions;
+using PdmLite.Api.Models;
+using PdmLite.Api.Services;
 
-namespace PdmLite.Controllers;
+namespace PdmLite.Api.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

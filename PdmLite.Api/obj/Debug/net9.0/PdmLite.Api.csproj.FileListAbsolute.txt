@@ -135,3 +135,4 @@ C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Api\bin\Debug\net9.0\PdmLite.D
 C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Api\bin\Debug\net9.0\PdmLite.Infrastructure.dll
 C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Api\bin\Debug\net9.0\PdmLite.Infrastructure.pdb
 C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Api\bin\Debug\net9.0\PdmLite.Domain.pdb
+C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Api\obj\Debug\net9.0\PdmLite.Api.sourcelink.json

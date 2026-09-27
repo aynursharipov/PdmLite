@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace PdmLite.Filters;
+namespace PdmLite.Api.Filters;
 
 public class DocumentActionFilter(ILogger<DocumentActionFilter> logger) : IAsyncActionFilter
 {

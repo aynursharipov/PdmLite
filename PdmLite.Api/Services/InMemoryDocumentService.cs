@@ -1,7 +1,8 @@
 ﻿using System.Collections.Concurrent;
+using PdmLite.Api.Models;
 using PdmLite.Domain.Models;
 
-namespace PdmLite.Services;
+namespace PdmLite.Api.Services;
 
 public class InMemoryDocumentService: IDocumentService
 {
@@ -23,5 +24,15 @@ public class InMemoryDocumentService: IDocumentService
     public Task<List<Document>> GetAllAsync(CancellationToken ct)
     {
         return Task.FromResult(_documents.Values.ToList());
+    }
+
+    public Task<DocumentDetailsResponseDto?> GetDetailsByIdAsync(Guid id, CancellationToken ct)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<RevisionResponseDto> CreateRevisionAsync(Guid documentId, string comment, CancellationToken ct)
+    {
+        throw new NotImplementedException();
     }
 }

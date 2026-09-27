@@ -15,3 +15,4 @@ C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Infrastructure\obj\Debug\net9.
 C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Infrastructure\obj\Debug\net9.0\PdmLite.Infrastructure.pdb
 C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Infrastructure\obj\Debug\net9.0\PdmLite.Infrastructure.genruntimeconfig.cache
 C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Infrastructure\obj\Debug\net9.0\ref\PdmLite.Infrastructure.dll
+C:\Users\Айнур\RiderProjects\PdmLite\PdmLite.Infrastructure\obj\Debug\net9.0\PdmLite.Infrastructure.sourcelink.json

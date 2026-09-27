@@ -1,4 +1,4 @@
-﻿namespace PdmLite.Exceptions;
+﻿namespace PdmLite.Api.Exceptions;
 
 public class DocumentAlreadyExistsException(string designation)
     : Exception($"Document with designation {designation} already exists");

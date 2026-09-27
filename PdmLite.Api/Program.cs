@@ -1,10 +1,10 @@
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
-using PdmLite.Exceptions;
-using PdmLite.Filters;
+using PdmLite.Api.Exceptions;
+using PdmLite.Api.Filters;
+using PdmLite.Api.Services;
+using PdmLite.Api.Validators;
 using PdmLite.Infrastructure;
-using PdmLite.Services;
-using PdmLite.Validators;
 
 var builder = WebApplication.CreateBuilder(args);
 

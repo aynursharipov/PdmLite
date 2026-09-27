@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace PdmLite.Middlewares;
+namespace PdmLite.Api.Middlewares;
 
 public class RequestTimingMiddleware
 {

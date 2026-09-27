@@ -1,6 +1,6 @@
-﻿using PdmLite.Middlewares;
+﻿using PdmLite.Api.Middlewares;
 
-namespace PdmLite.Extensions;
+namespace PdmLite.Api.Extensions;
 
 public static class RequestTimingMiddlewareExtensions
 {
