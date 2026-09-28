@@ -33,6 +33,37 @@ public class SqlDocumentService(PdmDbContext context) : IDocumentService
         return document;
     }
 
+    public async Task<PagedResult<Document>> GetPagedAsync(GetDocumentsQuery query, CancellationToken ct)
+    {
+        var pageNumber = query.PageNumber < 1 ? 1 : query.PageNumber;
+        var pageSize = query.PageSize switch
+        {
+            < 1 => 10,
+            > 100 => 100,
+            _ => query.PageSize
+        };
+
+        var documentsQuery = context.Documents.AsNoTracking();
+
+        if (!string.IsNullOrWhiteSpace(query.SearchTerm))
+        {
+            var pattern = $"%{query.SearchTerm.Trim()}%";
+            documentsQuery = documentsQuery.Where(x =>
+                EF.Functions.ILike(x.Designation, pattern) ||
+                EF.Functions.ILike(x.Title, pattern));
+        }
+
+        var count = await documentsQuery.CountAsync(ct);
+
+        var documents = await documentsQuery
+            .OrderByDescending(x => x.CreatedAt)
+            .Skip((pageNumber - 1) * pageSize)
+            .Take(pageSize)
+            .ToListAsync(ct);
+
+        return new PagedResult<Document>(documents, pageNumber, pageSize, count);
+    }
+
     public Task<List<Document>> GetAllAsync(CancellationToken ct)
     {
         return context.Documents.AsNoTracking().ToListAsync(ct);

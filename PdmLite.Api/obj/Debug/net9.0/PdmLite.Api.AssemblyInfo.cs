@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PdmLite.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06edb1e33c6b454897c6d9e4848c24dcbcb1c18e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b61a0c735e4f4e87a2fd2b63c731187c87884b3")]
 [assembly: System.Reflection.AssemblyProductAttribute("PdmLite.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PdmLite.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -2,6 +2,7 @@
 using PdmLite.Api.Exceptions;
 using PdmLite.Api.Models;
 using PdmLite.Api.Services;
+using PdmLite.Domain.Models;
 
 namespace PdmLite.Api.Controllers;
 
@@ -34,5 +35,18 @@ public class DocumentsController(ILogger<DocumentsController> logger, IDocumentS
         return document == null 
             ? throw new DocumentNotFoundException(id)
             : Ok(document);
+    }
+    
+    
+    [HttpGet]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+    public async Task<ActionResult<PagedResult<Document>>> GetAll(
+        [FromQuery] GetDocumentsQuery query,
+        CancellationToken ct)
+    {
+        var result = await documentService.GetPagedAsync(query, ct);
+        return Ok(result);
     }
 }
